@@ -1,0 +1,61 @@
+.bail-application {
+    background: #fff;
+    /* White background for the bail application form */
+    border: 1px solid #ccc;
+    /* Light gray border */
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+}
+
+.bail-application h2 {
+    margin-bottom: 20px;
+    color: #000;
+    /* Black text for headers */
+}
+
+.bail-application form {
+    display: flex;
+    flex-direction: column;
+}
+
+.bail-application label {
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #333;
+    /* Dark gray text for labels */
+}
+
+.bail-application input[type="text"],
+.bail-application textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    /* Light gray border for inputs */
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.bail-application textarea {
+    height: 100px;
+    resize: vertical;
+    /* Allow vertical resizing only */
+}
+
+.bail-application button {
+    background-color: #000;
+    /* Black background for buttons */
+    color: #fff;
+    /* White text for buttons */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.bail-application button:hover {
+    background-color: #333;
+    /* Slightly lighter black on hover */
+}
