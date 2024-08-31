@@ -7,7 +7,7 @@ const ProfileDetails = () => {
   // Hardcoded details for the legal adversary
   const legalAdversary = {
     name: 'John Doe',
-    designation: 'Senior Legal Advisor',
+    designation: 'Advocate',
     phone: '+91-123-456-7890',
     email: 'john.doe@example.com',
     address: '123 Legal Street, Suite 456, Law City, India',
@@ -30,9 +30,10 @@ const ProfileDetails = () => {
   return (
     <div className="profile-details">
       <div className="profile-header">
-        <img src={legalAdversary.profilePic} alt="Profile" className="profile-pic" />
+        
         <div className="profile-info">
-          <h2>{legalAdversary.name}</h2>
+          <h2>Profile Info</h2>
+          <p><strong>Name:</strong> {legalAdversary.name}</p>
           <p><strong>Designation:</strong> {legalAdversary.designation}</p>
           <p><strong>Phone:</strong> {legalAdversary.phone}</p>
           <p><strong>Email:</strong> {legalAdversary.email}</p>

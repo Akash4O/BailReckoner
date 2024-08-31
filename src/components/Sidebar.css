@@ -1,6 +1,6 @@
 .sidebar {
   width: 250px;
-  background-color: black;
+  background-color: #393E46;
   color: white;
   height: 100vh;
   padding: 20px;
@@ -19,7 +19,7 @@ button {
 }
 
 button:hover {
-  background-color: #555;
+  background-color: #393E46;
 }
 
 .client-section {
@@ -27,7 +27,7 @@ button:hover {
 }
 
 .client-item {
-  background-color: #444;
+  background-color: #393E46;
   color: white;
   border: none;
   padding: 10px;
@@ -38,7 +38,7 @@ button:hover {
 }
 
 .client-item:hover {
-  background-color: #666;
+  background-color: #393E46;
 }
 
 sidebar .logout-button {

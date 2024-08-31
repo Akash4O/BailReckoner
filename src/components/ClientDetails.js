@@ -16,14 +16,14 @@ const ClientDetails = ({ client }) => {
   return (
     <div className="client-details">
       <h2>Client Details</h2>
-      <p><strong>Name:</strong> {client.name}</p>
-      <p><strong>Age:</strong> {client.age}</p>
-      <p><strong>Offense:</strong> {client.offense}</p>
-      <p><strong>Sentence:</strong> {client.sentence}</p>
-      <p><strong>FIR Number:</strong> {client.firNumber}</p>
-      <p><strong>Court:</strong> {client.court}</p>
-      <p><strong>Date of Arrest:</strong> {client.dateOfArrest}</p>
-      <p><strong>Prisoner ID:</strong> {client.prisonerId}</p>
+      <p className='client-info'><strong>Name:</strong> {client.name}</p>
+      <p className='client-info'><strong>Age:</strong> {client.age}</p>
+      <p className='client-info'><strong>Offense:</strong> {client.offense}</p>
+      <p className='client-info'><strong>Sentence:</strong> {client.sentence}</p>
+      <p className='client-info'><strong>FIR Number:</strong> {client.firNumber}</p>
+      <p className='client-info'><strong>Court:</strong> {client.court}</p>
+      <p className='client-info'><strong>Date of Arrest:</strong> {client.dateOfArrest}</p>
+      <p className='client-info'><strong>Prisoner ID:</strong> {client.prisonerId}</p>
 
       <h3>Cases</h3>
       <div className="case-buttons">
